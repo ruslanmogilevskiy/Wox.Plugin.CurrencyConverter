@@ -1,0 +1,12 @@
+﻿{
+  "ID": "A92C5E21B67C49EDB97B91833F9B0941",
+  "ActionKeyword": "*",
+  "Name": "Currency Converter",
+  "Description": "Shows an exchange rate of one currency to one or many another",
+  "Author": "Ruslan Mogilevskiy",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/ruslanmogilevskiy/Wox.Plugin.CurrencyConverter",
+  "IcoPath": "images\\exchange-black.png",
+  "ExecuteFileName": "Wox.Plugin.CurrencyConverter.dll"
+}

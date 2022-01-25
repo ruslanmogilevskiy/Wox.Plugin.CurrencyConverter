@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata>
+        <id>Wox.Infrastructure</id>
+        <version>1.4.1196</version>
+        <authors>qianlifeng</authors>
+        <owners>qianlifeng</owners>
+        <licenseUrl>https://github.com/Wox-launcher/Wox/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Wox-launcher/Wox</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Wox.Infrastructure assembly for WOX plugin developers</description>
+        <tags>wox, infrastructure</tags>
+        <references>
+            <group targetFramework=".NETFramework4.6">
+                <reference file="Wox.Infrastructure.dll" />
+            </group>
+        </references>
+    </metadata>
+    <files>
+      <file src="Wox.Infrastructure.dll" target="lib\net46" />
+    </files>
+</package>
