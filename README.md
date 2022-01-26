@@ -1,6 +1,19 @@
 # Currency Converter
 
-The [Wox](http://www.wox.one) plugin to instantly convert one currency to one or multiple another.
+*Wox.Plugin.CurrencyConverter* is the [Wox](http://www.wox.one) plugin to instantly convert one currency to one or multiple another.
+
+It allows you to quickly get the exchange rate of one currency to a single or multiple other currencies:
+
+![Get the exchange rate quickly](./docs/images/ss-1.png)
+
+or quickly convert the specific amount of one currency to a single or multiple favorite currencies that you set in the plugin settings:
+
+![Get the exchange rate quickly](./docs/images/ss-2.png)
+
+or convert the specific amount of one currency to a single or multiple other currencies that're specified in the query:
+
+![Get the exchange rate quickly](./docs/images/ss-3.png)
+
 
 #### How to install
 
