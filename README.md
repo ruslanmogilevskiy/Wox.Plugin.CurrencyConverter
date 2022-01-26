@@ -15,14 +15,14 @@ or convert the specific amount of one currency to a single or multiple other cur
 ![Get the exchange rate quickly](./docs/images/ss-3.png)
 
 
-#### How to install
+## How to install
 
 * Download the Wox.Plugin.CurrencyConverter.wox plugin file from the latest [release](https://github.com/ruslanmogilevskiy/Wox.Plugin.CurrencyConverter/releases).
   * You can compile it manually from sources, it's just a ZIP file with all required .DLLs and plugin.json file inside.
 * Start dragging this file with the mouse and activate the Wox via shortcut at the same time. Then drop the file to the WoX window and confirm that you want to install the plugin and restart Wox.
 
 
-#### Commands format
+## Commands format
 
 One of the following commands must be entered in the WoX's popup dialog:
 
@@ -35,14 +35,14 @@ Notice:
 * List of target currencies could consist of a single currency or the comma-separated list of currencies. Example: EUR or EUR,CAD,GBP
 * The amount value will be parsed as a full-featured float value, with the sign character, thousand separator, decimal characters, etc. Both the current culture's decimal separator and ',' are supported. I.e. all the 10; 10.55 or 10,55; +10.55 or -10.55 are valid amounts.
 
-#### Plugin settings
+## Plugin settings
 
 On the plugin settings' page you need to enter your currency exchange's API key (described below).
 
 Also, optionally you can specify the list of favorite target currencies that will be used when the target currency wasn't specified in the WoX's query by you.
 For example, if the favorite currencies are 'EUR,CAD' then by just entering '10 USD' in the query you'll receive the exchange rate for USD to EUR and CAD currencies. If nothing is specified the 'EUR,USD' value is used, by default.
 
-#### Supported currency exchanges
+## Supported currency exchanges
 
 Now, only one currency exchange is supported - [exchangerate-api.com](https://www.exchangerate-api.com) but others could be added quite easy. [Here's](https://www.exchangerate-api.com/docs/supported-currencies) the list of supported currencies.
 
