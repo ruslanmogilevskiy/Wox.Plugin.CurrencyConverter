@@ -1,4 +1,4 @@
-# Currency Converter
+# Currency Converter plugin for Wox launcher
 
 The [Wox](http://www.wox.one) plugin to instantly convert one currency to one or multiple another.
 
