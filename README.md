@@ -1,6 +1,6 @@
-# Currency Converter plugin for Wox launcher
+# Currency Converter plugin for WoX launcher
 
-*Wox.Plugin.CurrencyConverter* is the [Wox](http://www.wox.one) plugin to instantly convert one currency to one or multiple another.
+*Wox.Plugin.CurrencyConverter* is the [WoX](https://github.com/Wox-launcher/Wox) plugin to instantly convert one currency to one or multiple another.
 
 It allows you to quickly get the exchange rate of one currency to a single or multiple other currencies:
 
@@ -19,12 +19,12 @@ or convert the specific amount of one currency to a single or multiple other cur
 
 * Download the Wox.Plugin.CurrencyConverter.wox plugin file from the latest [release](https://github.com/ruslanmogilevskiy/Wox.Plugin.CurrencyConverter/releases).
   * You can compile it manually from sources, it's just a ZIP file with all required .DLLs and plugin.json file inside.
-* Start dragging this file with the mouse and activate the Wox via shortcut at the same time. Then drop the file to the Wox window and confirm that you want to install the plugin and restart Wox.
+* Start dragging this file with the mouse and activate the Wox via shortcut at the same time. Then drop the file to the WoX window and confirm that you want to install the plugin and restart Wox.
 
 
 #### Commands format
 
-One of the following commands must be entered in the Wox's popup dialog:
+One of the following commands must be entered in the WoX's popup dialog:
 
 * &lt;amount&gt; &lt;baseCurrency&gt;  (example: 50 USD)
 * &lt;amount&gt; &lt;baseCurrency&gt; to &lt;targetCurrency1&gt;[,targetCurrency2,targetCurrencyN]  (example: 50 USD to EUR,CAD)
@@ -39,7 +39,7 @@ Notice:
 
 On the plugin settings' page you need to enter your currency exchange's API key (described below).
 
-Also, optionally you can specify the list of favorite target currencies that will be used when the target currency wasn't specified in the Wox's query by you.
+Also, optionally you can specify the list of favorite target currencies that will be used when the target currency wasn't specified in the WoX's query by you.
 For example, if the favorite currencies are 'EUR,CAD' then by just entering '10 USD' in the query you'll receive the exchange rate for USD to EUR and CAD currencies. If nothing is specified the 'EUR,USD' value is used, by default.
 
 #### Supported currency exchanges
