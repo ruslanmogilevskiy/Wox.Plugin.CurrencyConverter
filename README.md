@@ -1,6 +1,6 @@
 # Currency Converter plugin for WoX launcher
 
-*Wox.Plugin.CurrencyConverter* is the [WoX](https://github.com/Wox-launcher/Wox) plugin to instantly convert one currency to one or multiple another.
+*Wox.Plugin.CurrencyConverter* is the [WoX](https://github.com/Wox-launcher/Wox) plugin to instantly convert one currency to one or multiple others.
 
 It allows you to quickly get the exchange rate of one currency to a single or multiple other currencies:
 
