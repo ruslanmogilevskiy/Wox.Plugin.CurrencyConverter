@@ -115,7 +115,8 @@ namespace Wox.Plugin.CurrencyConverter
                     continue;
 
                 var exchangeResult = amount * rate;
-                var result = CreateResult($"{amountStr} {baseCurrencyCode} = {exchangeResult} {targetCurrency}", "Press enter to copy the result",
+                var result = CreateResult($"{amountStr} {baseCurrencyCode} = {exchangeResult} {targetCurrency}", 
+                    $"1 {targetCurrency}={(1/rate):F} {baseCurrencyCode}. Press enter to copy the result",
                     e =>
                     {
                         Clipboard.SetText(exchangeResult.ToString(CultureInfo.CurrentCulture));
