@@ -1,7 +1,7 @@
 ﻿{
   "ID": "A92C5E21B67C49EDB97B91833F9B0941",
   "ActionKeyword": "*",
-  "Name": "Currency Converter",
+  "Name": "CurrencyConverter",
   "Description": "Shows an exchange rate of one currency to one or multiple another",
   "Author": "Ruslan Mogilevskiy",
   "Version": "1.0.0",
